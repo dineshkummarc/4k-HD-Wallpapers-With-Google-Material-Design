@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:8888/psnews/';
+$config['base_url'] = 'http://localhost/4k-HD-Wallpapers-With-Google-Material-Design/';
 
 if ( strlen( substr($_SERVER['REQUEST_URI'], 0, stripos($_SERVER['REQUEST_URI'], "index.php" ))) == 0) {
 	$config['base_url'] = "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
